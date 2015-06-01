@@ -14,15 +14,15 @@ help for {hi:gmap}{right:(Thomas Roca)}
 {title:Description}
 
 {p 4 4 2}
-{cmd:gmap} creates heatmaps for the web, using java api developped by google (see:{browse "https://developers.google.com/chart/interactive/docs/gallery/geochart": https://developers.google.com/chart/interactive/docs/gallery/geochart/})
+{cmd:gmap} creates heatmaps for the web, using javascript api developped by google (see:{browse "https://developers.google.com/chart/interactive/docs/gallery/geochart": https://developers.google.com/chart/interactive/docs/gallery/geochart/})
 
-To be displayed, the webpage needs to find in its folder, 2 java scripts:
+To be displayed, the webpage needs to find in its folder, 2 javascripts:
 1. "jaspi" available at {browse "https://www.google.com/jsapi":https://www.google.com/jsapi}
 2. "jquery-latest.js" available at: {browse "http://code.jquery.com/jquery-latest.js":http://code.jquery.com/jquery-latest.js}
 NB. Make sure the using name is different from one map to another in the same folder if not the first page will be displayed instead of the freshly created.
 
-The program will create a folder in the present working directory, containing: 1.the heatmap (HTML) and a copy of the two java files needed ("jsapi" & "jquery-latest.js" ) included in "gmap.zip"
-Thus, all the content of  "gmap.zip" must be unzipped in the ado directory. The program will copy the java files from the ado directory.
+The program will create a folder in the present working directory, containing: 1.the heatmap (HTML) and a copy of the two javascript files needed ("jsapi" & "jquery-latest.js" ) included in "gmap.zip"
+Thus, all the content of  "gmap.zip" must be unzipped in the ado directory. The program will copy the javascript files from the ado directory.
 NB. This programme should work under unix or mac os, contact me otherwise.
 
 The variable to map must be numeric. A country identifier variable must exist in the dataset; this variable must be named "iso3" and contains country ISO 3166-1 alpha-3 codes.
@@ -53,11 +53,11 @@ For more information about iso 3166-1 aplpha-3 codes, see: {browse "http://en.wi
 {title:Acknowledgements}
 
 {p}
-For more information on the underneath html and java code see: {browse "https://developers.google.com/chart/interactive/docs/gallery/geochart":https://developers.google.com/chart/interactive/docs/gallery/geochart}
+For more information on the underneath html and javascript code see: {browse "https://developers.google.com/chart/interactive/docs/gallery/geochart":https://developers.google.com/chart/interactive/docs/gallery/geochart}
 
 {title:Author}
 
 {p}
-Thomas Roca,PhD, Research department, Agence Française de Développement(AFD), France.
+Thomas Roca,PhD, Research department, Agence FranÃ§aise de DÃ©veloppement(AFD), France.
 Email:{browse "mailto:rocat@afd.fr":rocat@afd.fr}
 {p_end}
