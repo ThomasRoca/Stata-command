@@ -13,7 +13,7 @@ help for {hi:himap}{right:(Thomas Roca)}
 {title:Description}
 
 {p 4 4 2}
-{cmd:himap} creates heatmaps for the web, using java api developped by highcharts (see:{browse "http://www.highcharts.com/": http://www.highcharts.com/})
+{cmd:himap} creates heatmaps for the web, using javascript api developped by highcharts (see:{browse "http://www.highcharts.com/": http://www.highcharts.com/})
 
 To be displayed, the webpage needs to find in its folder, 13 java scripts, these are provided locally, but are also available online:
 1. "jquery-1.9.1.js" 		{browse "http://code.jquery.com/jquery-1.9.1.js": http://code.jquery.com/jquery-1.9.1.js}  
@@ -31,9 +31,9 @@ To be displayed, the webpage needs to find in its folder, 13 java scripts, these
 13. "south-america"		{browse "http://code.highcharts.com/mapdata/custom/south-america.js": http://code.highcharts.com/mapdata/custom/south-america.js}  
 
 The program will create a folder in the present working directory, containing:
-1. The heatmap (HTML) and a copy of the  java files needed included in "himap.zip"
+1. The heatmap (HTML) and a copy of the  javascript files needed included in "himap.zip"
 2. A dataset under json format, that will feed the HTML file
-All the content of  "himap.zip" must be unzipped in the ado directory. The program will copy the java files from the ado directory.
+All the content of  "himap.zip" must be unzipped in the ado directory. The program will copy the javascript files from the ado directory.
 The ado files comes with a folder name "himap_js", this folder must be located in your ado directory, in the same directory as himap.ado
 NB. Do not copy himap.ado into himap folder, leave it at the root, e.g. C:\ado\plus\h 
 NB. This programme might not work correctly under unix or mac os. I'm currently working on it, thanks for your comprehension.
@@ -67,14 +67,14 @@ NB. Note that if the option 'zone' is specified, the option 'projection' will no
 {title:Acknowledgements}
 
 {p}
-Note that I'm not the developper of the java engine, I adapted it and integrated it into a stata command.
-The primary code was developped by highchart under a Creative Commons Attribution-NonCommercial 3.0 License for non commercial use.
+Note that I'm not the developper of the javascript engine, I adapted it and integrated it into a stata command.
+The primary code was developped by highchart under a Creative Commons Attribution-Non Commercial 3.0 License for non commercial use.
 For more information see: {browse "http://shop.highsoft.com/faq": http://shop.highsoft.com/faq}
-For more information on the underneath html and java code see: {browse "http://www.highcharts.com/maps/demo/tooltip":http://www.highcharts.com/maps/demo/tooltip}
+For more information on the underneath html and javascript code see: {browse "http://www.highcharts.com/maps/demo/tooltip":http://www.highcharts.com/maps/demo/tooltip}
 
 {title:Author}
 
 {p}
-Thomas Roca,PhD, Research department, Agence Française de Développement(AFD), France.
+Thomas Roca,PhD, Research department, Agence FranÃ§aise de DÃ©veloppement(AFD), France.
 Email:{browse "mailto:rocat@afd.fr":rocat@afd.fr}
 {p_end}
