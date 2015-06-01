@@ -12,13 +12,13 @@ help for {hi:scatter3D}{right:(Thomas Roca)}
 {title:Description}
 
 {p 4 4 2}
-{cmd:scatter3D} creates 3D scatter plots for the web, using HTML5 3D feature and java api developped by CanvasXpress (see:{browse "http://canvasxpress.org/": http://canvasxpress.org/})
+{cmd:scatter3D} creates 3D scatter plots for the web, using HTML5 3D feature and javascript api developped by CanvasXpress (see:{browse "http://canvasxpress.org/": http://canvasxpress.org/})
 
 This chart uses HTML5 canvas technology, thus, your web browser needs to embed HTML5 (all updated ones do). 
-To be displayed the charts needs several files (images and java). The ado files comes with a folder name "scatter3D",
+To be displayed the charts needs several files (images and javascript). The ado files comes with a folder name "scatter3D",
 this folder must be located in your ado directory, in the same directory as scatter3D.ado (NB. Do not copy scatter3D.ado into scatter3D folder, leave it at the root, e.g. C:\ado\plus\s ) 
 
-Executing scatter3D command, a folder will be created in your working directory, containing two subfolders to host the needed files to display the chart (java and images for the menu.
+Executing scatter3D command, a folder will be created in your working directory, containing two subfolders to host the needed files to display the chart (javascript and images for the menu.
 The resulting chart will be a dynamic html file using 3D engine. NB. The copy command might not work correctly under unix or mac os. I'm currently working on it, thanks for your comprehension.
 
 To execute the command 4 variables are required, the first 3 will be displayed on axis X, Y, Z. 
@@ -39,7 +39,7 @@ Scatter3D will use variable label if any. Note that the graph won't display if s
 {title:Acknowledgements}
 
 {p 4 4 2}
-Note that I'm not the developper of the java engine and 3D solution, I adapted it and integrated it into a Stata command to take benefit of Stata's great possibilities in data management and parsing. 
+Note that I'm not the developper of the javascript engine and 3D solution, I adapted it and integrated it into a Stata command to take benefit of Stata's great possibilities in data management and parsing. 
 The primary code was developped by CanvasXpress under a GNU licence Open Source GPL version 3.0.
 For more information on the underneath html and java code see: {browse "http://canvasxpress.org/":http://canvasxpress.org/}
 
@@ -47,6 +47,6 @@ For more information on the underneath html and java code see: {browse "http://c
 {title:Author}
 
 {p}
-Thomas Roca,PhD, Research department, Agence Française de Développement(AFD), France.
+Thomas Roca,PhD, Research department, Agence FranÃ§aise de DÃ©veloppement(AFD), France.
 Email:{browse "mailto:rocat@afd.fr":rocat@afd.fr}
 {p_end}
